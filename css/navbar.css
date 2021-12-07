@@ -43,7 +43,16 @@
 .fas {
   font-weight: 600 !important;
 }
-
+.notification {
+  position: relative;
+}
+.fa-circle:before {
+  position: absolute;
+  color: red;
+  font-size: 10px;
+  top: -10px;
+  left: 23px;
+}
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-width: 450px) {
   .container-fluid {
@@ -84,5 +93,11 @@
   .nav-item .form-control {
     font-size: 8px;
     padding: 0;
+  }
+  .fa-circle:before {
+    position: absolute;
+    color: red;
+    font-size: 5px;
+    top: -5px;
   }
 }
