@@ -53,6 +53,15 @@
   top: -14px;
   left: 23px;
 }
+@media screen and (max-width: 768px) {
+  input {
+    width: 200px !important;
+    height: 40px;
+  }
+  .nav-item .form-control {
+    font-size: 15px;
+  }
+}
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-width: 450px) {
   .container-fluid {
