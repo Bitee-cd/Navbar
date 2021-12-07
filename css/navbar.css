@@ -1,3 +1,25 @@
+.sidebar a {
+  color: #240046;
+  font-size: 18;
+}
+.sidebar .row {
+  margin: 0;
+}
+.sidebar .nav-item a i {
+  font-size: 18px;
+  padding-right: 5px;
+}
+.sidebar a:hover,
+.sidebar .active {
+  background: #240046;
+  color: white;
+}
+.sidebar .nav-item {
+  margin: 0;
+}
+.sidebar .nav-link {
+  margin: 0;
+}
 .mobile-sidebar {
   height: 100%;
   width: 0;
@@ -17,7 +39,7 @@
 }
 
 .mobile-sidebar a:hover,
-.active {
+.mobile-sidebar .active {
   background: #240046;
   color: white;
 }
@@ -28,6 +50,9 @@
   right: 15px;
   font-size: 36px;
   margin-left: 50px;
+}
+.mobile-sidebar .nav-item a i {
+  padding: 5px;
 }
 
 .nav-item a {
