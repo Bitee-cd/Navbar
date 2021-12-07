@@ -58,6 +58,9 @@
   top: -14px;
   left: 23px;
 }
+.nav-item .form-control {
+  border-radius: 30px !important;
+}
 @media screen and (max-width: 768px) {
   input {
     width: 200px !important;
@@ -99,6 +102,7 @@
     width: 120px !important;
     height: 18px;
   }
+
   .nav-item .form-control {
     font-size: 8px;
   }
