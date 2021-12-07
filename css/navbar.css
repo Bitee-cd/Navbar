@@ -1,0 +1,88 @@
+.mobile-sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.mobile-sidebar a {
+  font-size: 25px;
+  color: #240046;
+}
+
+.mobile-sidebar a:hover,
+.active {
+  background: #240046;
+  color: white;
+}
+
+.mobile-sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.nav-item a {
+  margin-left: 30px;
+}
+.nav-item a i {
+  font-size: 30px;
+  padding: 7px;
+}
+.nav-item img {
+  width: 30px;
+}
+.fas {
+  font-weight: 600 !important;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-width: 450px) {
+  .container-fluid {
+    padding: 1%;
+  }
+  .mobile-sidebar {
+    padding-top: 15px;
+  }
+  .mobile-sidebar .nav-item a {
+    font-size: 12px;
+  }
+  .nav-item a {
+    font-size: 9px;
+    margin-left: 5px !important;
+  }
+  .nav-item a img {
+    width: 15px;
+    margin: 0 !important;
+    margin-right: 3px !important;
+  }
+  .nav-item a i {
+    font-size: 15px;
+    padding: 3px;
+  }
+  .navbar-brand {
+    margin: 0;
+    padding: 0;
+  }
+  .logo img {
+    width: 70px;
+    height: 25px;
+    object-fit: contain;
+  }
+  input {
+    width: 70px !important;
+    height: 20px;
+  }
+  .nav-item .form-control {
+    font-size: 8px;
+    padding: 0;
+  }
+}
