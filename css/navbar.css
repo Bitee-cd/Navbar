@@ -43,8 +43,13 @@
 .fas {
   font-weight: 600 !important;
 }
+.bar,
+.dropdown {
+  border-right: 2px solid black;
+}
 .notification {
   position: relative;
+  margin-right: 30px;
 }
 .fa-circle:before {
   position: absolute;
@@ -107,5 +112,8 @@
     font-size: 5px;
     top: -6px;
     left: 12px;
+  }
+  .notification {
+    margin-right: 3px;
   }
 }
